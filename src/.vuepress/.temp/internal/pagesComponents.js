@@ -31,14 +31,14 @@ export const pagesComponents = {
   "v-62ced1a6": defineAsyncComponent(() => import(/* webpackChunkName: "v-62ced1a6" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/zh/demo/page.html.vue")),
   // path: /zh/guide/
   "v-47357bdb": defineAsyncComponent(() => import(/* webpackChunkName: "v-47357bdb" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/zh/guide/index.html.vue")),
-  // path: /guide/bar/
-  "v-5d5c2d30": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d5c2d30" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/bar/index.html.vue")),
-  // path: /guide/bar/baz.html
-  "v-177e1f06": defineAsyncComponent(() => import(/* webpackChunkName: "v-177e1f06" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/bar/baz.html.vue")),
   // path: /guide/foo/
   "v-5d5821d6": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d5821d6" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/foo/index.html.vue")),
   // path: /guide/foo/ray.html
   "v-0b6fc5f8": defineAsyncComponent(() => import(/* webpackChunkName: "v-0b6fc5f8" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/foo/ray.html.vue")),
+  // path: /guide/bar/
+  "v-5d5c2d30": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d5c2d30" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/bar/index.html.vue")),
+  // path: /guide/bar/baz.html
+  "v-177e1f06": defineAsyncComponent(() => import(/* webpackChunkName: "v-177e1f06" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/bar/baz.html.vue")),
   // path: /zh/guide/bar/
   "v-763c1cd7": defineAsyncComponent(() => import(/* webpackChunkName: "v-763c1cd7" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/zh/guide/bar/index.html.vue")),
   // path: /zh/guide/bar/baz.html

@@ -1,7 +1,15 @@
 export const searchIndex = [
   {
-    "title": "Visionhub docs",
-    "headers": [],
+    "title": "",
+    "headers": [
+      {
+        "level": 2,
+        "title": "copyright: falsefooter: MIT Licensed | Copyright © 2019-present Mr.Hope",
+        "slug": "copyright-falsefooter-mit-licensed-copyright-©-2019-present-mr-hope",
+        "link": "#copyright-falsefooter-mit-licensed-copyright-©-2019-present-mr-hope",
+        "children": []
+      }
+    ],
     "path": "/",
     "pathLocale": "/",
     "extraFields": []
@@ -633,35 +641,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Bar feature",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Introduction",
-        "slug": "introduction",
-        "link": "#introduction",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Details",
-        "slug": "details",
-        "link": "#details",
-        "children": []
-      }
-    ],
-    "path": "/guide/bar/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Baz",
-    "headers": [],
-    "path": "/guide/bar/baz.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Foo feature",
     "headers": [
       {
@@ -687,6 +666,35 @@ export const searchIndex = [
     "title": "Ray",
     "headers": [],
     "path": "/guide/foo/ray.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Bar feature",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Introduction",
+        "slug": "introduction",
+        "link": "#introduction",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Details",
+        "slug": "details",
+        "link": "#details",
+        "children": []
+      }
+    ],
+    "path": "/guide/bar/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Baz",
+    "headers": [],
+    "path": "/guide/bar/baz.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -756,16 +764,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
