@@ -23,6 +23,16 @@ export const esNavbar = navbar([
     ],
   },
   {
+    text: "Roadmap",
+    icon: "note",
+    link: "https://droneit.canny.io/feature-requests",
+  },
+  {
+    text: "Changelog",
+    icon: "note",
+    link: "https://droneit.canny.io/changelog",
+  },
+  {
     text: "Go to Visionhub",
     icon: "note",
     link: "https://app.visionhub.es",

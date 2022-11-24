@@ -1,15 +1,7 @@
 export const searchIndex = [
   {
-    "title": "",
-    "headers": [
-      {
-        "level": 2,
-        "title": "copyright: falsefooter: MIT Licensed | Copyright © 2019-present Mr.Hope",
-        "slug": "copyright-falsefooter-mit-licensed-copyright-©-2019-present-mr-hope",
-        "link": "#copyright-falsefooter-mit-licensed-copyright-©-2019-present-mr-hope",
-        "children": []
-      }
-    ],
+    "title": "Visionhub docs",
+    "headers": [],
     "path": "/",
     "pathLocale": "/",
     "extraFields": []
@@ -141,6 +133,36 @@ export const searchIndex = [
       }
     ],
     "path": "/demo/page.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Guide",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Highlight Features",
+        "slug": "highlight-features",
+        "link": "#highlight-features",
+        "children": [
+          {
+            "level": 3,
+            "title": "Bar",
+            "slug": "bar",
+            "link": "#bar",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Foo",
+            "slug": "foo",
+            "link": "#foo",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/guide/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -444,32 +466,60 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Guide",
+    "title": "Bar feature",
     "headers": [
       {
         "level": 2,
-        "title": "Highlight Features",
-        "slug": "highlight-features",
-        "link": "#highlight-features",
-        "children": [
-          {
-            "level": 3,
-            "title": "Bar",
-            "slug": "bar",
-            "link": "#bar",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Foo",
-            "slug": "foo",
-            "link": "#foo",
-            "children": []
-          }
-        ]
+        "title": "Introduction",
+        "slug": "introduction",
+        "link": "#introduction",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Details",
+        "slug": "details",
+        "link": "#details",
+        "children": []
       }
     ],
-    "path": "/guide/",
+    "path": "/guide/bar/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Baz",
+    "headers": [],
+    "path": "/guide/bar/baz.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Foo feature",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Introduction",
+        "slug": "introduction",
+        "link": "#introduction",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Details",
+        "slug": "details",
+        "link": "#details",
+        "children": []
+      }
+    ],
+    "path": "/guide/foo/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Ray",
+    "headers": [],
+    "path": "/guide/foo/ray.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -641,64 +691,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Foo feature",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Introduction",
-        "slug": "introduction",
-        "link": "#introduction",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Details",
-        "slug": "details",
-        "link": "#details",
-        "children": []
-      }
-    ],
-    "path": "/guide/foo/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Ray",
-    "headers": [],
-    "path": "/guide/foo/ray.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Bar feature",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Introduction",
-        "slug": "introduction",
-        "link": "#introduction",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Details",
-        "slug": "details",
-        "link": "#details",
-        "children": []
-      }
-    ],
-    "path": "/guide/bar/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Baz",
-    "headers": [],
-    "path": "/guide/bar/baz.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Bar 功能",
     "headers": [
       {
@@ -764,3 +756,16 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

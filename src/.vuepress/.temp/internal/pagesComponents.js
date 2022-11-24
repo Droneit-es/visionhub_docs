@@ -13,12 +13,20 @@ export const pagesComponents = {
   "v-438ffe52": defineAsyncComponent(() => import(/* webpackChunkName: "v-438ffe52" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/demo/markdown.html.vue")),
   // path: /demo/page.html
   "v-6e19edb7": defineAsyncComponent(() => import(/* webpackChunkName: "v-6e19edb7" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/demo/page.html.vue")),
+  // path: /guide/
+  "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/index.html.vue")),
   // path: /zh/
   "v-2d0ad528": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d0ad528" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/zh/index.html.vue")),
   // path: /zh/slides.html
   "v-269ae70f": defineAsyncComponent(() => import(/* webpackChunkName: "v-269ae70f" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/zh/slides.html.vue")),
-  // path: /guide/
-  "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/index.html.vue")),
+  // path: /guide/bar/
+  "v-5d5c2d30": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d5c2d30" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/bar/index.html.vue")),
+  // path: /guide/bar/baz.html
+  "v-177e1f06": defineAsyncComponent(() => import(/* webpackChunkName: "v-177e1f06" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/bar/baz.html.vue")),
+  // path: /guide/foo/
+  "v-5d5821d6": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d5821d6" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/foo/index.html.vue")),
+  // path: /guide/foo/ray.html
+  "v-0b6fc5f8": defineAsyncComponent(() => import(/* webpackChunkName: "v-0b6fc5f8" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/foo/ray.html.vue")),
   // path: /zh/demo/
   "v-2b64e284": defineAsyncComponent(() => import(/* webpackChunkName: "v-2b64e284" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/zh/demo/index.html.vue")),
   // path: /zh/demo/disable.html
@@ -31,14 +39,6 @@ export const pagesComponents = {
   "v-62ced1a6": defineAsyncComponent(() => import(/* webpackChunkName: "v-62ced1a6" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/zh/demo/page.html.vue")),
   // path: /zh/guide/
   "v-47357bdb": defineAsyncComponent(() => import(/* webpackChunkName: "v-47357bdb" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/zh/guide/index.html.vue")),
-  // path: /guide/foo/
-  "v-5d5821d6": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d5821d6" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/foo/index.html.vue")),
-  // path: /guide/foo/ray.html
-  "v-0b6fc5f8": defineAsyncComponent(() => import(/* webpackChunkName: "v-0b6fc5f8" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/foo/ray.html.vue")),
-  // path: /guide/bar/
-  "v-5d5c2d30": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d5c2d30" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/bar/index.html.vue")),
-  // path: /guide/bar/baz.html
-  "v-177e1f06": defineAsyncComponent(() => import(/* webpackChunkName: "v-177e1f06" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/guide/bar/baz.html.vue")),
   // path: /zh/guide/bar/
   "v-763c1cd7": defineAsyncComponent(() => import(/* webpackChunkName: "v-763c1cd7" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/zh/guide/bar/index.html.vue")),
   // path: /zh/guide/bar/baz.html
@@ -49,4 +49,8 @@ export const pagesComponents = {
   "v-00fb7173": defineAsyncComponent(() => import(/* webpackChunkName: "v-00fb7173" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/zh/guide/foo/ray.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/404.html.vue")),
+  // path: /feedback/
+  "v-c6c84b1e": defineAsyncComponent(() => import(/* webpackChunkName: "v-c6c84b1e" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/feedback/index.html.vue")),
+  // path: /feedback/featurerequest.html
+  "v-0f1bcf8f": defineAsyncComponent(() => import(/* webpackChunkName: "v-0f1bcf8f" */"/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pages/feedback/featurerequest.html.vue")),
 }

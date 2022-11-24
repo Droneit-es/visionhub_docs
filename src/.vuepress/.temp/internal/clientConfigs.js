@@ -9,7 +9,8 @@ import clientConfig7 from '/Users/garci/Desarrollo/visionhub-docs/visionhub_docs
 import clientConfig8 from '/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/pwa2/config.js'
 import clientConfig9 from '/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/src/.vuepress/.temp/theme-hope/config.js'
 import clientConfig10 from '/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/node_modules/@vuepress/plugin-search/lib/client/config.js'
-import clientConfig11 from '/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
+import clientConfig11 from '/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/node_modules/@vuepress/plugin-docsearch/lib/client/config.js'
+import clientConfig12 from '/Users/garci/Desarrollo/visionhub-docs/visionhub_docs/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -24,4 +25,5 @@ export const clientConfigs = [
   clientConfig9,
   clientConfig10,
   clientConfig11,
+  clientConfig12,
 ]
